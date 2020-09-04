@@ -1,0 +1,12 @@
+.van-popup__close-icon--top-right {
+    top: 2px!important;
+    width: 30px!important;
+    z-index: 999999999999!important;
+    right: 0px!important;
+    position: absolute!important;
+    color: black;
+    font-weight: bold;
+    &::before{
+        content: "X";
+    }
+}
